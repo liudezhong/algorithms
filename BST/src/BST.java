@@ -510,7 +510,7 @@ public class BST<Key extends Comparable<Key>, Value> {
         st.put("H", 1);
         st.put("M", 1);
 
-        st.get("M");
+        StdOut.println(st.get("M"));
 
         for (String s : st.levelOrder())
             StdOut.println(s + " " + st.get(s));
